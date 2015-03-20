@@ -295,7 +295,7 @@ var Header = React.createClass({displayName: "Header",
     render: function () {
         return (
             React.createElement("div", {style: styles.header}, 
-                React.createElement("img", {style: styles.logo, src: "/assets/images/logo.png"})
+                React.createElement("img", {style: styles.logo, src: "assets/images/logo.png"})
             )
         );
     }
