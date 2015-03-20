@@ -281,7 +281,7 @@ var React = require("react");
 var styles = {
     header: {
         textAlign: "right",
-        background: "black",
+        background: "#000000",
         height: "100%"
     },
     logo: {
