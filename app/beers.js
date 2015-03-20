@@ -7,7 +7,7 @@ module.exports = [
         "progress": 92,
         "timeLeft": 5,
         "price": 4,
-        "thumbnail": "/assets/images/01.png"
+        "thumbnail": "assets/images/01.png"
     },
     {
         "id": 11,
@@ -17,7 +17,7 @@ module.exports = [
         "progress": 45,
         "timeLeft": 16,
         "price": 2.8,
-        "thumbnail": "/assets/images/02.png"
+        "thumbnail": "assets/images/02.png"
     },
     {
         "id": 93,
@@ -27,7 +27,7 @@ module.exports = [
         "progress": 1,
         "timeLeft": 2,
         "price": 3,
-        "thumbnail": "/assets/images/03.png"
+        "thumbnail": "assets/images/03.png"
     },
     {
         "id": 18,
@@ -37,7 +37,7 @@ module.exports = [
         "progress": 32,
         "timeLeft": 3,
         "price": 5,
-        "thumbnail": "/assets/images/04.png"
+        "thumbnail": "assets/images/04.png"
     },
     {
         "id": 8,
@@ -47,7 +47,7 @@ module.exports = [
         "progress": 50,
         "timeLeft": 10,
         "price": 4,
-        "thumbnail": "/assets/images/05.png"
+        "thumbnail": "assets/images/05.png"
     },
     {
         "id": 72,
@@ -57,7 +57,7 @@ module.exports = [
         "progress": 70,
         "timeLeft": 10,
         "price": 8,
-        "thumbnail": "/assets/images/06.png"
+        "thumbnail": "assets/images/06.png"
     },
     {
         "id": 69,
@@ -67,7 +67,7 @@ module.exports = [
         "progress": 85,
         "timeLeft": 15,
         "price": 5,
-        "thumbnail": "/assets/images/07.png"
+        "thumbnail": "assets/images/07.png"
     },
     {
         "id": 144,
@@ -77,6 +77,6 @@ module.exports = [
         "progress": 74,
         "timeLeft": 4,
         "price": 3,
-        "thumbnail": "/assets/images/08.png"
+        "thumbnail": "assets/images/08.png"
     }
 ]

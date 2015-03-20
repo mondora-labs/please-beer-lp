@@ -3,12 +3,13 @@ var browserSync = require("browser-sync");
 var fs          = require("fs");
 var gulp        = require("gulp");
 var concat      = require("gulp-concat");
+var ghPages     = require("gulp-gh-pages");
 var mocha       = require("gulp-spawn-mocha");
 var rename      = require("gulp-rename");
 var gutil       = require("gulp-util");
+var watch       = require("gulp-watch");
 var source      = require("vinyl-source-stream");
 var watchify    = require("watchify");
-var watch       = require("gulp-watch");
 
 
 
@@ -119,6 +120,12 @@ gulp.task("serve", function() {
     });
 });
 
+/*
+*   Task to deploy to github pages
+*/
+gulp.task("deploy", function() {
+    return gulp.src("./builds/**/*").pipe(ghPages());
+});
 
 
 /*

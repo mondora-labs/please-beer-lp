@@ -3,7 +3,7 @@ var React = require("react");
 var styles = {
     header: {
         textAlign: "right",
-        background: "black",
+        background: "#000000",
         height: "100%"
     },
     logo: {
@@ -17,7 +17,7 @@ var Header = React.createClass({
     render: function () {
         return (
             <div style={styles.header}>
-                <img style={styles.logo} src="/assets/images/logo.png" />
+                <img style={styles.logo} src="assets/images/logo.png" />
             </div>
         );
     }
