@@ -25,7 +25,7 @@ var Footer = React.createClass({
         return (
             <div style={styles.footer}>
                 <div style={styles.footerCopy}>
-                    &copy; 2014 Please beer
+                    &copy; 2015 Please beer
 
                 </div>
             </div>
