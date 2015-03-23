@@ -6,15 +6,22 @@ var stores = require("lib/stores");
 
 var styles = {
     header: {
-        position: "absolute",
+        position: "fixed",
+        height: "80px",
         width: "100%",
-        height: 100
+        top: "0px",
+        zIndex: "9"
     },
     content: {
-        position: "absolute",
-        top: 100,
-        width: "100%",
-        height: "calc(100% - 50px)"
+        width: "100vw",
+        padding: "90px 0",
+        textAlign: "center"
+    },
+    wrap: {
+        backgroundColor: "#f8b600",
+        minHeight: "100vh",
+        position: "relative",
+        color: "#FFF"
     }
 };
 
@@ -36,14 +43,16 @@ var App = React.createClass({
     },
     render: function () {
         return (
-            <div>
+            <div style={styles.wrap}>
                 <div style={styles.header}>
                     <components.Header />
                 </div>
                 <div style={styles.content}>
                     <components.Content />
                 </div>
+                <components.Footer />
                 <components.SignupModal open={this.state.signupModalIsOpen} />
+
             </div>
         );
     }
